@@ -1,8 +1,21 @@
 <Solution>
-  <Folder Name="/Task0/">
-    <Project Path="Tyuiu.ZaitsSD.Sprint0.Task0.VO/Tyuiu.ZaitsSD.Sprint0.Task0.V0.csproj" />
-  </Folder>
+  <Folder Name="/Task0/" />
   <Folder Name="/Task1/">
     <Project Path="Tyuiu.ZaitsSD.Sprint0.Task1.V0/Tyuiu.ZaitsSD.Sprint0.Task1.V0.csproj" Id="55064436-af6d-4570-9319-3b3aacf52ea0" />
+  </Folder>
+  <Folder Name="/Task2/">
+    <Project Path="Tyuiu.ZaitsSD.Sprint0.Task1.V0.Test/Tyuiu.ZaitsSD.Sprint0.Task2.V0.Test.csproj" Id="99a3bfe6-0519-493e-a031-b05e033058b0" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint0.Task2.V0.Lib/Tyuiu.ZaitsSD.Sprint0.Task2.V0.Lib.csproj" Id="3e4f3cfe-9093-4419-8681-663bb3ece853" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint0.Task2.V0/Tyuiu.ZaitsSD.Sprint0.Task2.V0.csproj" Id="b5462f5f-eda8-4bc4-8a04-039f19524cc8" />
+  </Folder>
+  <Folder Name="/Task3/">
+    <Project Path="Tyuiu.ZaitsSD.Sprint0.Task3.V0.Lib/Tyuiu.ZaitsSD.Sprint0.Task3.V0.Lib.csproj" Id="0927f4a2-ff72-4cb0-b07f-4fe5a3040bb7" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint0.Task3.V0.Test/Tyuiu.ZaitsSD.Sprint0.Task3.V0.Test.csproj" Id="c44b973f-06f8-440d-84c7-c8215a38622c" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint0.Task3.V0/Tyuiu.ZaitsSD.Sprint0.Task3.V0.csproj" Id="27f803e5-5d0c-430d-9185-f27f217153ba" />
+  </Folder>
+  <Folder Name="/Task4/">
+    <Project Path="Tyuiu.ZaitsSD.Sprint0.Task4.V0.Lib/Tyuiu.ZaitsSD.Sprint0.Task4.V0.Lib.csproj" Id="d0eb5140-f49f-4f62-8ef1-508572d032dc" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint0.Task4.V0.Test/Tyuiu.ZaitsSD.Sprint0.Task4.V0.Test.csproj" Id="80064059-73dc-459f-9cea-61874526d1fc" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint0.Task4.V0/Tyuiu.ZaitsSD.Sprint0.Task4.V0.csproj" Id="8b13a760-e84f-47d2-882b-8f26be3811d4" />
   </Folder>
 </Solution>
