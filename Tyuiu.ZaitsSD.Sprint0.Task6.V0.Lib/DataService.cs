@@ -1,22 +1,16 @@
-﻿using System.Globalization;
-using System.Numerics;
-
 namespace Tyuiu.ZaitsSD.Sprint0.Task6.V0.Lib
 {
     public class DataService
     {
-        public static int AdditionArray(int[] numbers)
+        public static object AdditionArray(int[] numbers)
         {
             var total = 0;
-
             for (var i = 0; i < numbers.Length; i++)
             {
                 total = total + numbers[i];
             }
-
             return total;
         }
-
         public static object SubtractionArray(int[] numbers)
         {
             var total = 0;
@@ -24,7 +18,7 @@ namespace Tyuiu.ZaitsSD.Sprint0.Task6.V0.Lib
 
             while (index < numbers.Length)
             {
-                total = total - numbers[index];
+                total = (total - numbers[index]);
                 index++;
             }
             return total;
@@ -43,8 +37,4 @@ namespace Tyuiu.ZaitsSD.Sprint0.Task6.V0.Lib
             return total;
         }
     }
-    
-
-
-} 
-
+}

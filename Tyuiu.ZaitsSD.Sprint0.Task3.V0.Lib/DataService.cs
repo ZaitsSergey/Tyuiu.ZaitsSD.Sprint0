@@ -1,8 +1,7 @@
-﻿namespace Tyuiu.ZaitsSD.Sprint0.Task3.V0.Lib
+namespace Tyuiu.ZaitsSD.Sprint0.Task3.V0.Lib
 {
     public class DataService
     {
-
         public static int Sum(int a, int b)
         {
             return a + b;

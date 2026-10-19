@@ -1,5 +1,5 @@
-﻿using System.Net.WebSockets;
 using Tyuiu.ZaitsSD.Sprint0.Task6.V0.Lib;
+
 namespace Tyuiu.ZaitsSD.Sprint0.Task6.V0.Test
 {
     [TestClass]
@@ -8,18 +8,17 @@ namespace Tyuiu.ZaitsSD.Sprint0.Task6.V0.Test
         [TestMethod]
         public void CheckAdditionArrayValid()
         {
-            var numbers = new int[] { 1, 2, 3, 4, 5 };
+            var numbers = new int[] { 1, 2, 3, 4 ,5 };
             var res = DataService.AdditionArray(numbers);
             Assert.AreEqual(15, res);
         }
         [TestMethod]
-        public void CheckSubstraction()
+        public void CheckSubtractionArrayValid()
         {
             var numbers = new int[] { 1, 2, 3, 4, 5 };
             var res = DataService.SubtractionArray(numbers);
             Assert.AreEqual(-15, res);
         }
-
         [TestMethod]
         public void CheckMultArrayValid()
         {

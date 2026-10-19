@@ -1,10 +1,16 @@
-﻿namespace Tyuiu.ZaitsSD.Sprint0.Task2.V0.Lib;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-
-public class DataService
+namespace Tyuiu.ZaitsSD.Sprint0.Task2.V0.Lib
 {
-    public static string GetMessage(string name)
+    public class DataService
     {
-        return $"Привет..., {name}";
+        public static string GetMessage(string name)
+        {
+            return $"Привет..., {name}";
+        }
     }
 }

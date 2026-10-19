@@ -1,8 +1,8 @@
-﻿using Tyuiu.ZaitsSD.Sprint0.Task3.V0.Lib; 
+using Tyuiu.ZaitsSD.Sprint0.Task3.V0.Lib;
 namespace Tyuiu.ZaitsSD.Sprint0.Task3.V0.Test
 {
     [TestClass]
-    public sealed class DataServiceTest
+    public sealed class DataServiseTest
     {
         [TestMethod]
         public void CheckedValid()

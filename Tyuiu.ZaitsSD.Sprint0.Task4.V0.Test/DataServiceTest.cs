@@ -1,29 +1,19 @@
-﻿using Tyuiu.ZaitsSD.Sprint0.Task4.V0.Lib;
+using Tyuiu.ZaitsSD.Sprint0.Task4.V0.Lib;
 namespace Tyuiu.ZaitsSD.Sprint0.Task4.V0.Test
 {
     [TestClass]
     public sealed class DataServiceTest
-
     {
         [TestMethod]
-
-        public void CheckAdditionValid()
+        public void CheckedAdditionValid()
         {
             Assert.AreEqual(10, DataService.Addition(5, 5));
         }
 
-
         [TestMethod]
-
         public void CheckedSubtractionValid()
         {
-            Assert.AreEqual(5, DataService.Substraction(10, 5));
-        }
-
-        [TestMethod]
-        public void CheckedSubractionValid()
-        {
-            Assert.AreEqual(50, DataService.Multiplication(10, 5));
+            Assert.AreEqual(5, DataService.Subtraction(10, 5));
         }
 
         [TestMethod]
@@ -31,7 +21,6 @@ namespace Tyuiu.ZaitsSD.Sprint0.Task4.V0.Test
         {
             Assert.AreEqual(50, DataService.Multiplication(10, 5));
         }
-
         [TestMethod]
         public void CheckedDivisionValid()
         {
@@ -39,5 +28,3 @@ namespace Tyuiu.ZaitsSD.Sprint0.Task4.V0.Test
         }
     }
 }
-        
-    

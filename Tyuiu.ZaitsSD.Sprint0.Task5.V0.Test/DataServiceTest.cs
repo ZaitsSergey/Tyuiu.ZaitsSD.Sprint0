@@ -1,10 +1,9 @@
-﻿
 using Tyuiu.ZaitsSD.Sprint0.Task5.V0.Lib;
 
 namespace Tyuiu.ZaitsSD.Sprint0.Task5.V0.Test
 {
     [TestClass]
-    public class DataServiceTest
+    public sealed class DataServiceTest
     {
         [TestMethod]
         public void CheckedAdditionValid()
@@ -23,12 +22,10 @@ namespace Tyuiu.ZaitsSD.Sprint0.Task5.V0.Test
         {
             Assert.AreEqual(50, DataService.Multiplication(10, 5));
         }
-
         [TestMethod]
-       public void CheckedDivisionValid()
-      {
-        Assert.AreEqual(3,DataService.Division(9, 3));
-       }
+        public void CheckedDivisionValid()
+        {
+            Assert.AreEqual(3, DataService.Division(9, 3));
+        }
     }
 }
-
